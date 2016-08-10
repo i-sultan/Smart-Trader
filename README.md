@@ -3,7 +3,7 @@ ST system gives stock price prediction based on results from a training  phase, 
 
 Input metrics (Indicators) and program details are explained in project documentation, the output is a prediction of adjusted close price.
 
-# User Interface Description
+## User Interface Description
 
 Interface is split into:
 
@@ -19,7 +19,7 @@ Interface is split into:
 * **Forecast interface**:
    Gives prediction results at any single date without validation, this should be the only interface available to clients of the system.
 
-# Project Structure
+## Project Structure
 
 Project folders are structured as follows:
 
@@ -54,7 +54,7 @@ The source folder is organized as follows:
 Code is developed with Python 2.7. Future versions (3.x) will be supported soon.
 
 
-# External packages
+## External packages
 
 The following external python packages need to be installed to run the code:
 * matplotlib
@@ -65,7 +65,7 @@ The following external python packages need to be installed to run the code:
 * sklearn
 
 
-# Running the code
+## Running the code
 
 To start the application, run st_app file from top application folder as follows:
 python src/st_app.py
