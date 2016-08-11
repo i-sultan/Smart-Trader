@@ -23,12 +23,12 @@ Interface is split into:
 
 Project folders are structured as follows:
 
-	cache/		- folder where all trained models, validation results, and testing results are saved.
-	src/		- folder where all source code is saved
-	LICENSE		- license file (GPL v3.0)
-	Report.pdf	- PDF file of the final project report
+	cache/			- folder where all trained models, validation results, and testing results are saved.
+	src/			- folder where all source code is saved
+	LICENSE			- license file (GPL v3.0)
+	Report.pdf		- PDF file of the final project report
 	Supplement.pdf	- Appendix part of the project report
-	README.md	- this file
+	README.md		- this file
 	app_icon.ico	- icon file (currently used for windows only)
 
 Code of this project follows MVC (model, view, controller) design pattern for separation of responsibilities between GUI and core files.
