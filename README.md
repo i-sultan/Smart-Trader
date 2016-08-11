@@ -79,6 +79,8 @@ st_app will display a user interface starting at the exploration tab, from there
 3. Enter an end date for exploration ("2016-07-01")
 4. Select any exploration from the exploration types and hit the "Run Exploration" button.
 
+![Explore GUI](/screenshots/explore.png)
+
 In order to use testing or forecasting, a model needs to be trained first. To train a model, go to the "Train" tabe first, and follow the following example:
 
 1. Enter a symbol for stock ("AAPL")
@@ -87,6 +89,8 @@ In order to use testing or forecasting, a model needs to be trained first. To tr
 4. Select any model from the predictive models list and hit the "Start Training" button.
 
 Training progress will appear, and user can check the results of training and validation once training is done.
+
+![Train GUI](/screenshots/train.png)
 
 Next step is testing the model, testing ideally is done on a range that is outside testing range. 
 The best model from all permutations in training step will be used in testing and forecasting, and hence the need for seperate periods. Otherwise, our testing results will not be indicative of the model generalization power.
@@ -100,9 +104,12 @@ To continue the above example, switch to "Backtest" tabe, and then:
 
 Once testing is complete, a figure will show with results of different horizons. In addition, a csv file is saved in cache with the testing metrics results.
 
+![Test GUI](/screenshots/test.png)
+
 Forecasting is also done outside the training period. We expect the 'forecast' tab to be the only interface available to eventual customers, the following steps conclude our mini-tutorial:
 
 1. select one of the pre-trained stocks ("AAPL")
-2. Select any model from the predictive models list and hit the "Run Backtesting" button.
-* Notice that training period is already filled based on the trained model.
-3. Enter a prediction date ("2016-07-01") and choose whether to display a forecast plot with predictions added to last month results, or a forecast table containing prediction per forecast horizon.
+ * Notice that training period is already filled based on the trained model.
+2. Enter a prediction date ("2016-07-01") and choose whether to display a forecast plot with predictions added to last month results, or a forecast table containing prediction per forecast horizon.
+
+![Forecast GUI](/screenshots/forecast.png)
