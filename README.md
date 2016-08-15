@@ -64,6 +64,7 @@ The following external python packages need to be installed to run the code:
 * Tkinter, ttk
 * pickle
 * pandas
+* pandas-datareader
 * numpy
 * sklearn
 
